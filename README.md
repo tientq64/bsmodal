@@ -22,7 +22,7 @@ Các tham số
     - "md" - *thường*
     - "lg" - *lớn*
     - number - *thiết lập chiều rộng theo px*
-  - js - *Phương thức JavaScript tương tác với modal. Tham số thứ nhất (`scope`) là một đối tượng dùng để chọn các thành phần trong modal, các tham số tiếp theo là các đối số truyền vào khi gọi modal với tên modal.*
+  - js - *Phương thức JavaScript tương tác với modal. Tham số thứ nhất (`scope`) là một biến dùng để chọn các thành phần trong modal, các tham số tiếp theo là các đối số truyền vào khi gọi modal với tên modal.*
 
 ## Sử dụng
 Tạo modal với tiêu đề, nội dung là dòng chữ "Hello World!", với một nút OK ở phía dưới. Thêm class cho thẻ `p` với tên class bắt đầu bằng ký tự `$`. Các thẻ với class có tên bắt đầu bằng `$` có thể được chọn với tham số `scope` trong phương thức `js`, và trả về một đối tượng jQuery.
