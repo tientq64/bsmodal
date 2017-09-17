@@ -36,18 +36,18 @@ bsModal({
   }
 });
 ```
-Có thể tạo modal trên với tên duy nhất, sau đó gọi theo cú pháp `bsModal.tenCuaModal()`.
+Có thể tạo modal trên với tên duy nhất, sau đó gọi theo cú pháp `bsModal.tenCuaModal()`. Khi gọi có thể truyền các đối số tương ứng với các tham số trong phương thức `js`, các tham số sau `scope`.
 ```js
 bsModal("myModal", {
   title: "Thông báo",
   body: `<p class="$message">Hello World!</p>`,
   footer: `<button>OK</button>`,
-  js(scope) {
-    scope.message.html("Hello Universe!");
+  js(scope, text) {
+    scope.message.html(text);
   }
 });
 
-bsModal.myModal();
+bsModal.myModal("Hello Universe!");
 ```
 
 ## Ví dụ khác
