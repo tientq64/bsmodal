@@ -50,6 +50,10 @@ bsModal("myModal", {
 bsModal.myModal("Hello Universe!");
 ```
 
+## Tải về
+bsModal 1.00
+- https://cdn.rawgit.com/tiencoffee/bsmodal/14bb386d/bsmodal.min.js (2.38 KB)
+
 ## Ví dụ khác
 ```js
 bsModal({
