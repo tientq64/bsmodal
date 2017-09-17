@@ -1,5 +1,5 @@
 # bsModal
-Tạo Bootstrap Modal dễ dàng
+Tạo Bootstrap Modal thật dễ dàng
 
 ## Cú pháp
 Cú pháp để tạo Bootstrap Modal, cũng giống như định nghĩa hàm, gồm hai cách sau:
