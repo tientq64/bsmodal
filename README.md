@@ -12,17 +12,17 @@ bsModal(optional);
 bsModal(name, optional);
 ```
 Các tham số
-- name: *Tên của modal.*
-- optional: *Một đối tượng định nghĩa các thành phần của modal.*
-  - title: *Tiêu đề của modal.*
-  - body: *Nội dụng HTML phần thân của modal.*
-  - footer: *Nội dung HTML phần chân của modal.*
-  - size: *Kích thước của modal, các giá trị có thể là:*
-    - "sm": *nhỏ*
-    - "md": *thường*
-    - "lg": *lớn*
-    - number: *thiết lập chiều rộng theo px*
-  - js: *Phương thức JavaScript tương tác với modal. Tham số thứ nhất (`scope`) là một đối tượng dùng để chọn các thành phần trong modal, các tham số tiếp theo là các đối số truyền vào khi gọi modal với tên modal.*
+- name - *Tên của modal.*
+- optional - *Một đối tượng định nghĩa các thành phần của modal.*
+  - title - *Tiêu đề của modal.*
+  - body - *Nội dụng HTML phần thân của modal.*
+  - footer - *Nội dung HTML phần chân của modal.*
+  - size - *Kích thước của modal, các giá trị có thể là:*
+    - "sm" - *nhỏ*
+    - "md" - *thường*
+    - "lg" - *lớn*
+    - number - *thiết lập chiều rộng theo px*
+  - js - *Phương thức JavaScript tương tác với modal. Tham số thứ nhất (`scope`) là một đối tượng dùng để chọn các thành phần trong modal, các tham số tiếp theo là các đối số truyền vào khi gọi modal với tên modal.*
 
 ## Sử dụng
 Tạo modal với tiêu đề, nội dung là dòng chữ "Hello World!", với một nút OK ở phía dưới. Thêm class cho thẻ `p` với tên class bắt đầu bằng ký tự `$`. Các thẻ với class có tên bắt đầu bằng `$` có thể được chọn với tham số `scope` trong phương thức `js`, và trả về một đối tượng jQuery.
