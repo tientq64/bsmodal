@@ -18,10 +18,10 @@ Các tham số
   - **body** - *Nội dụng HTML phần thân của modal.*
   - **footer** - *Nội dung HTML phần chân của modal.*
   - **size** - *Kích thước của modal, các giá trị có thể là:*
-    - "sm" - *nhỏ*
-    - "md" - *thường*
-    - "lg" - *lớn*
-    - number - *thiết lập chiều rộng theo px*
+    - **"sm"** - *nhỏ*
+    - **"md"** - *thường*
+    - **"lg"** - *lớn*
+    - **number** - *thiết lập chiều rộng theo px*
   - **js** - *Phương thức JavaScript tương tác với modal. Tham số thứ nhất (`scope`) là một biến dùng để chọn các thành phần trong modal, các tham số tiếp theo là các đối số truyền vào khi gọi modal với tên modal.*
 
 ## Sử dụng
