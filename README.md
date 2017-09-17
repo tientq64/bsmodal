@@ -84,10 +84,10 @@ bsModal({
 });
 ```
 
-##Giấy phép
+## Giấy phép
 **MIT License**
 
-**Copyright (c) 2017 Tiến Coffee**
+Copyright (c) 2017 Tiến Coffee
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
