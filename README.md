@@ -25,7 +25,7 @@ Các tham số
   - js - *Phương thức JavaScript tương tác với modal. Tham số thứ nhất (`scope`) là một biến dùng để chọn các thành phần trong modal, các tham số tiếp theo là các đối số truyền vào khi gọi modal với tên modal.*
 
 ## Sử dụng
-Tạo modal với tiêu đề, nội dung là dòng chữ "Hello World!", với một nút OK ở phía dưới. Thêm class cho thẻ `p` với tên class bắt đầu bằng ký tự `$`. Các thẻ với class có tên bắt đầu bằng `$` có thể được chọn với biến `scope` trong phương thức `js`, và trả về một đối tượng jQuery.
+Tạo modal với tiêu đề, nội dung là dòng chữ "Hello World!", với một nút OK ở phía dưới. Thêm class cho thẻ `p` với tên class bắt đầu bằng ký tự `$`. Các thẻ với class có tên bắt đầu bằng `$` có thể được chọn như một thuộc tính của biến `scope` trong phương thức `js`, và trả về một đối tượng jQuery.
 ```js
 bsModal({
   title: "Thông báo",
