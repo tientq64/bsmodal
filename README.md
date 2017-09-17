@@ -52,7 +52,7 @@ bsModal.myModal("Hello Universe!");
 
 ## Tải về
 bsModal 1.00
-- https://cdn.rawgit.com/tiencoffee/bsmodal/14bb386d/bsmodal.min.js (2.4 KB)
+- https://cdn.rawgit.com/tiencoffee/bsmodal/14bb386d/bsmodal.min.js _(2.38 KB)
 
 ## Ví dụ khác
 ```js
